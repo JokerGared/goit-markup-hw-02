@@ -16,20 +16,6 @@ address {
   font-style: inherit;
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
-
 /*----------------Header--------------- */
 
 .header {
@@ -56,6 +42,9 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-address {
 }
 
 .header-address-link {
@@ -166,9 +155,9 @@ address {
 
 /*----------------Portfolio--------------- */
 
-.Portfolio {
+.portfolio {
 }
-.Portfolio-heading {
+.portfolio-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -177,18 +166,18 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.Portfolio-list {
+.portfolio-list {
 }
-.Portfolio-list-item {
+.portfolio-list-item {
 }
-.Portfolio-list-subhead {
+.portfolio-list-subhead {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.Portfolio-list-text {
+.portfolio-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
