@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 a {
@@ -14,7 +16,7 @@ address {
   font-style: inherit;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -26,7 +28,7 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /*----------------Header--------------- */
 
@@ -38,13 +40,13 @@ address {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 
-header .logo span {
+.header-logo {
   color: #2e2f42;
 }
 
@@ -63,6 +65,16 @@ header .logo span {
   color: #434455;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
 /*---------------- Hero--------------- */
 
 .hero {
@@ -72,14 +84,13 @@ header .logo span {
 .hero-heading {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .hero-button {
-  /* font-family: inherit; */
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
@@ -87,6 +98,12 @@ header .logo span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 /*----------------Features--------------- */
@@ -120,21 +137,16 @@ header .logo span {
 .team-heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-list {
 }
 .team-list-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
 }
 .team-list-subhead {
   font-weight: 500;
@@ -159,9 +171,10 @@ header .logo span {
 .Portfolio-heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .Portfolio-list {
@@ -187,7 +200,7 @@ header .logo span {
 .footer {
   background-color: #2e2f42;
 }
-footer .logo span {
+.footer-logo {
   color: #f4f4fd;
 }
 .footer-text {
